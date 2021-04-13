@@ -1,0 +1,25 @@
+$(document).ready(function(){
+    $("h2").click(function(){
+      $("p").hide(2000);
+    });
+  });
+  $(document).ready(function(){
+    $("button").click(function(){
+      $("p").show(5500);
+      $("table").show(3000);
+      $("h2").show(2000);
+    });
+  });
+  $(document).ready(function(){
+    $("figure").click(function(){
+      $("table").hide(5500);
+    });
+  });
+  $(document).ready(function(){
+    $("a").click(function(){
+      $("table").toggle(5500);
+      $("p").toggle(5000);
+      $("h2").toggle(5000);
+      $("h3").toggle(5000);
+    });
+  });

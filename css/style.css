@@ -25,6 +25,14 @@ h1 small {
   padding: 0.3em;
 }
 
+h1{
+  color: black !important;
+  font-weight: 500 !important;
+}
+
 nav.navbar-dark {
   background-color:  rgba(0,0,0,0.5) !important;
+}
+#hymna{
+  text-align: center;
 }
