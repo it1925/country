@@ -35,7 +35,7 @@ const figures = [
         "name":"Name1",
         "birth":"dateA",
         "death":"dateB",
-        "bio":"life",
+        "bio":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat molestias nam fugit aperiam incidunt nisi veritatis consequatur amet odio reprehenderit ea quibusdam sed, optio unde, suscipit veniam quisquam, reiciendis excepturi.",
         "portraits":[
             "p1.jpg",
             "p2.jpg"
@@ -46,7 +46,7 @@ const figures = [
         "name":"Name2",
         "birth":"dateA",
         "death":"dateB",
-        "bio":"life",
+        "bio":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat molestias nam fugit aperiam incidunt nisi veritatis consequatur amet odio reprehenderit ea quibusdam sed, optio unde, suscipit veniam quisquam, reiciendis excepturi.",
         "portraits":[
             "p1.jpg",
             "p2.jpg"
@@ -57,7 +57,7 @@ const figures = [
         "name":"Name3",
         "birth":"dateA",
         "death":"dateB",
-        "bio":"life",
+        "bio":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat molestias nam fugit aperiam incidunt nisi veritatis consequatur amet odio reprehenderit ea quibusdam sed, optio unde, suscipit veniam quisquam, reiciendis excepturi.",
         "portraits":[
             "p1.jpg",
             "p2.jpg"
@@ -68,7 +68,7 @@ const figures = [
         "name":"Name4",
         "birth":"dateA",
         "death":"dateB",
-        "bio":"life",
+        "bio":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat molestias nam fugit aperiam incidunt nisi veritatis consequatur amet odio reprehenderit ea quibusdam sed, optio unde, suscipit veniam quisquam, reiciendis excepturi.",
         "portraits":[
             "p1.jpg",
             "p2.jpg"
@@ -79,7 +79,7 @@ const figures = [
         "name":"Name5",
         "birth":"dateA",
         "death":"dateB",
-        "bio":"life",
+        "bio":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat molestias nam fugit aperiam incidunt nisi veritatis consequatur amet odio reprehenderit ea quibusdam sed, optio unde, suscipit veniam quisquam, reiciendis excepturi.",
         "portraits":[
             "p1.jpg",
             "p2.jpg"
@@ -117,7 +117,7 @@ $(function(){
          console.log(figure);
          $("#figure-info .name").html(`<h5>${figures[0].name} nar.:${figures[0].birth} úmr.:${figures[0].death}</h5>`);
          $("#figure-info .info").html(`${figures[0].bio}`);
-         $("#figure-info .foot").html(`${figures[0].online}`);
+         $("#figure-info .foot").html(`<a href="${figures[0].online}">${figures[0].online}</a>`);
      }
      $("#figures .list-group li").on("click", function(){
         fillFigure($(this).text());
