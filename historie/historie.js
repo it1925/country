@@ -115,9 +115,9 @@ $(function(){
      function fillFigure(person){
          let figure = figures.find(item => {return item.name === person});
          console.log(figure);
-         $("#figure-info .name").html(`<h5>${figures[0].name} nar.:${figures[0].birth} úmr.:${figures[0].death}</h5>`);
-         $("#figure-info .info").html(`${figures[0].bio}`);
-         $("#figure-info .foot").html(`<a href="${figures[0].online}">${figures[0].online}</a>`);
+         $("#figure-info .name").html(`<h5>${figure.name} nar.:${figure.birth} úmr.:${figure.death}</h5>`);
+         $("#figure-info .info").html(`${figure.bio}`);
+         $("#figure-info .foot").html(`<a href="${figure.online}">${figure.online}</a>`);
      }
      $("#figures .list-group li").on("click", function(){
         fillFigure($(this).text());
