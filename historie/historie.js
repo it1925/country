@@ -1,32 +1,32 @@
 const events = [
     {
         "year":"....",
-        "event":"e1",
-        "detail":"d1",
+        "event":"lorem ipsum",
+        "detail":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat molestias nam fugit aperiam incidunt nisi veritatis consequatur amet odio reprehenderit ea quibusdam sed, optio unde, suscipit veniam quisquam, reiciendis excepturi.",
         "url":"#link"
     },
     {
         "year":"....",
-        "event":"e2",
-        "detail":"d2",
+        "event":"lorem ipsum",
+        "detail":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat molestias nam fugit aperiam incidunt nisi veritatis consequatur amet odio reprehenderit ea quibusdam sed, optio unde, suscipit veniam quisquam, reiciendis excepturi.",
         "url":"#link"
     },
     {
         "year":"....",
-        "event":"e3",
-        "detail":"d3",
+        "event":"lorem ipsum",
+        "detail":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat molestias nam fugit aperiam incidunt nisi veritatis consequatur amet odio reprehenderit ea quibusdam sed, optio unde, suscipit veniam quisquam, reiciendis excepturi.",
         "url":"#link"
     },
     {
         "year":"....",
-        "event":"e4",
-        "detail":"d4",
+        "event":"lorem ipsum",
+        "detail":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat molestias nam fugit aperiam incidunt nisi veritatis consequatur amet odio reprehenderit ea quibusdam sed, optio unde, suscipit veniam quisquam, reiciendis excepturi.",
         "url":"#link"
     },
     {
         "year":"....",
-        "event":"e5",
-        "detail":"d5",
+        "event":"lorem ipsum",
+        "detail":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat molestias nam fugit aperiam incidunt nisi veritatis consequatur amet odio reprehenderit ea quibusdam sed, optio unde, suscipit veniam quisquam, reiciendis excepturi.",
         "url":"#link"
     },
 ];
@@ -102,13 +102,24 @@ $(function(){
 
     $(".event-detail").hide();
     $(".event-name i").on("click", function(){
-        console.log("XDDD");  
         $(".event-detail").hide(100);
         $(this).parent().next().show(100);   
      });
 
      figures.forEach((figures) => {
          $("#figures .list-group").append(`<li class="list-group-item list-group-item-action" data-toggle="list">${figures.name}</li>`);
+        // $("#figure-info").html(`<h4>${figures.name} nar.:${figures.birth} úmr.:${figures.death}</h4>`);
+        // $("#figure-info .name").html(`<h5>I Tried</h5>`);
+     });
 
+     function fillFigure(person){
+         let figure = figures.find(item => {return item.name === person});
+         console.log(figure);
+         $("#figure-info .name").html(`<h5>${figures[0].name} nar.:${figures[0].birth} úmr.:${figures[0].death}</h5>`);
+         $("#figure-info .info").html(`${figures[0].bio}`);
+         $("#figure-info .foot").html(`${figures[0].online}`);
+     }
+     $("#figures .list-group li").on("click", function(){
+        fillFigure($(this).text());
      });
 });
