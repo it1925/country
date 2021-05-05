@@ -37,8 +37,7 @@ const figures = [
         "death":"dateB",
         "bio":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat molestias nam fugit aperiam incidunt nisi veritatis consequatur amet odio reprehenderit ea quibusdam sed, optio unde, suscipit veniam quisquam, reiciendis excepturi.",
         "portraits":[
-            "p1.jpg",
-            "p2.jpg"
+            "png1.png",
         ],
         "online":"link"
     },
@@ -49,7 +48,6 @@ const figures = [
         "bio":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat molestias nam fugit aperiam incidunt nisi veritatis consequatur amet odio reprehenderit ea quibusdam sed, optio unde, suscipit veniam quisquam, reiciendis excepturi.",
         "portraits":[
             "p1.jpg",
-            "p2.jpg"
         ],
         "online":"link"
     },
@@ -60,7 +58,6 @@ const figures = [
         "bio":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat molestias nam fugit aperiam incidunt nisi veritatis consequatur amet odio reprehenderit ea quibusdam sed, optio unde, suscipit veniam quisquam, reiciendis excepturi.",
         "portraits":[
             "p1.jpg",
-            "p2.jpg"
         ],
         "online":"link"
     },
@@ -71,7 +68,6 @@ const figures = [
         "bio":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat molestias nam fugit aperiam incidunt nisi veritatis consequatur amet odio reprehenderit ea quibusdam sed, optio unde, suscipit veniam quisquam, reiciendis excepturi.",
         "portraits":[
             "p1.jpg",
-            "p2.jpg"
         ],
         "online":"link"
     },
@@ -82,7 +78,6 @@ const figures = [
         "bio":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat molestias nam fugit aperiam incidunt nisi veritatis consequatur amet odio reprehenderit ea quibusdam sed, optio unde, suscipit veniam quisquam, reiciendis excepturi.",
         "portraits":[
             "p1.jpg",
-            "p2.jpg"
         ],
         "online":"link"
     },
@@ -116,10 +111,16 @@ $(function(){
          let figure = figures.find(item => {return item.name === person});
          console.log(figure);
          $("#figure-info .name").html(`<h5>${figure.name} nar.:${figure.birth} úmr.:${figure.death}</h5>`);
-         $("#figure-info .info").html(`${figure.bio}`);
+         $("#figure-info .info").text(`${figure.bio}`);
          $("#figure-info .foot").html(`<a href="${figure.online}">${figure.online}</a>`);
+
+         figure.portraits.forEach(portrait => {
+            $(".png").html(`<img src="./images/${portrait}" alt="${figure.name}" class="img-fluid"></img>`);// <figcaption>${figure.name}</figcaption>
+         });
+       
      }
      $("#figures .list-group li").on("click", function(){
         fillFigure($(this).text());
      });
+
 });
