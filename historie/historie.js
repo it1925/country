@@ -82,8 +82,26 @@ const figures = [
         "online":"link"
     },
 ];
-$(function(){
 
+const news = [
+    {
+    "title":"title1",
+    "text":"text1",
+    "date":"date",
+    "author":"author",
+    "picture":"png1.png",
+    "link":"link"
+    },
+    {
+    "title":"title1",
+    "text":"text1",
+    "date":"date",
+    "author":"author",
+    "picture":"png1.png",
+    "link":"link"
+    }
+];
+$(function(){
     events.forEach((event) => {
         $("#uvod tbody").append(`<tr>
         <td class="event-year">${event.year}</td>
@@ -103,9 +121,8 @@ $(function(){
 
      figures.forEach((figures) => {
          $("#figures .list-group").append(`<li class="list-group-item list-group-item-action" data-toggle="list">${figures.name}</li>`);
-        // $("#figure-info").html(`<h4>${figures.name} nar.:${figures.birth} úmr.:${figures.death}</h4>`);
-        // $("#figure-info .name").html(`<h5>I Tried</h5>`);
-     });
+     });   
+     $("#figures .list-group").append(`<div class="col mt-3 pb-3"></div>`);
 
      function fillFigure(person){
          let figure = figures.find(item => {return item.name === person});
@@ -119,8 +136,25 @@ $(function(){
          });
        
      }
+   
+     news.forEach((news) => {
+         $("#zpravodaj").append(`<div class="col-sm-3 mt-3 pb-3 border-bottom">
+         <article>
+         <figure>
+         <img src="./images/${news.picture}" alt="${news.title}" class="img-fluid"></img>
+         </figure>
+         </div>
+         <div class="col-sm-9 mt-3 pb-3 border-top border-bottom">
+         <h5>${news.title}</h5>
+         <p>${news.text}</p>
+         <p>autro:${news.author} link:<a href="${news.link}">${news.link}<a/></p>
+         </div>
+         </article>
+        `);
+     });
+        
+     
      $("#figures .list-group li").on("click", function(){
         fillFigure($(this).text());
      });
-
 });
