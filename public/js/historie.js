@@ -46,7 +46,6 @@ $(function(){
      $("#zpravodaj h5").on("click", function(){
         $(this).next().toggle(1000);
      });
-
     }
     function newsBlock(news){
         news.forEach((news) => {
