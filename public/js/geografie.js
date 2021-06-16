@@ -33,7 +33,7 @@ $(function(){
         let id = $(this).attr('id');
         let city = cities.find(item => {return item.id === id});
         //console.log(cities);  
-        $('#info').slideDown(500, function(){$('#info').html(`
+        $('#info').slideUp(500, function(){$('#info').html(`
         <div class="container border mt-3 mb-3">
             <div class="row">
                 <div class="col-10">
@@ -42,11 +42,11 @@ $(function(){
                 </div>
                 <div class="col-2">
                         <div class="card-body">Znak</div>
-                        <img class="card-img-bottom" src="${city.coat_of_arms}" alt="Card image cap">
+                        <img class="card-img-bottom" src="${city.coat_of_arms}" alt="Znak města není k dispozici">
                         
                 </div>
             </div>
-            <hr><p>${city.link}</p>
+            <hr><a href="${city.link}">${city.link}</a>
         </div>`)});
         $('#info').slideToggle(500);
     })
