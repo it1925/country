@@ -18,8 +18,11 @@ $(function(){
     let pathFill = $('path').css('fill');
     $('path').on('click', function() {
         $('path').css('fill', pathFill);
-        console.log(this.id);
-        $(this).css('fill','green');
+        $(this).popover({
+            'placement': 'top',
+            'title': $(this).find('title').text(),
+            'css': $(this).css('fill','green')
+        });;       
     });
 
     let cityColor = $('#barva').attr('fill');
@@ -33,7 +36,7 @@ $(function(){
         let id = $(this).attr('id');
         let city = cities.find(item => {return item.id === id});
         //console.log(cities);  
-        $('#info').slideUp(500, function(){$('#info').html(`
+        $('#info').fadeOut(500, function(){$('#info').html(`
         <div class="container border mt-3 mb-3">
             <div class="row">
                 <div class="col-10">
@@ -41,14 +44,14 @@ $(function(){
                 <p>${city.description}</p>
                 </div>
                 <div class="col-2">
-                        <div class="card-body">Znak</div>
+                        <div class="card-body">${city.what}</div>
                         <img class="card-img-bottom" src="${city.coat_of_arms}" alt="Znak města není k dispozici">
                         
                 </div>
             </div>
             <hr><a href="${city.link}">${city.link}</a>
         </div>`)});
-        $('#info').slideToggle(500);
+        $('#info').fadeToggle(500);
     })
   
 })

@@ -3,6 +3,7 @@
         "id":"Havana",
         "name":"Havana",
         "population":"2132394",
+        "what":"Znak",
         "coat_of_arms":"../geografie/img/Escudo_de_la_Habana.svg.png",
         "description":"Havana (španělsky: San Cristóbal de La Habana, obvykle zkracováno na La Habana, IPA: [la aˈβana]) je hlavní město Kuby. Havana se nachází pouze 160 km jižně od floridského Key West (město). Je jednou z 15 kubánských provincií a podle údajů z roku 2019 má 2,13 milionu obyvatel. Město se vyznačuje španělskou koloniální architekturou a je proto na seznamu světových památek UNESCO.",
         "link":"https://cs.wikipedia.org/wiki/Havana"
@@ -11,6 +12,7 @@
         "id":"Pinar_del_Rio",
         "name":"Pinar del Río",
         "population":"584379",
+        "what":"Znak",
         "coat_of_arms":"../geografie/img/Coat_of_arms_of_the_Pinar_Del_Rio_Province.svg.png",
         "description":"Pinar del Río je nejzápadnější provincie Kuby, hlavním městem je Pinar del Río. V okolí města se pěstuje především tabák. Nejzápadnější část provincie je tvořena poloostrovem Guanahacabibes, který je jedním z kubánských národních parků a biosférickou rezervací. Rozkládá se zde pohoří Guaniguanico, jehož součástí je i Údolí Viñales (zapsáno na seznamu světového kulturního dědictví UNESCO). Atraktivní místa pro trávení dovolené: město Viñales, pláž Maria la Gorda, ostrůvek Levisa, botanická zahrada Soroa. ",
         "link":"https://cs.wikipedia.org/wiki/Pinar_del_R%C3%ADo_(provincie)"
@@ -19,6 +21,7 @@
         "id":"Mariel",
         "name":"Mariel",
         "population":"42504",
+        "what":"Znak",
         "coat_of_arms":"Img not found",
         "description":"Mariel je obec a město v kubánské provincii Artemisa. Nachází se přibližně 40 km západně od Havany. Město se nachází na jihovýchodní straně Marielského zálivu. Hlavní osady tvořící obec Mariel jsou vesnice La Boca, Henequen, Mojica, Quiebra Hacha a Cabañas. Agustín Parlá Orduña, který se narodil 11. října 1887 v Key Westu kubánským rodičům v exilu během boje za nezávislost Kuby, byl prvním člověkem, který 19. května 1913 přeletěl 119 mil (192 km) nad mořem z Key Westu na Floridě do El Marielu na Kubě. Přístav Mariel je nejbližším přístavem ke Spojeným státům. V roce 1980 opustilo Mariel přibližně 125 000 Kubánců a vydalo se do Spojených států v rámci tzv. Exodu z Mariel. Mnozí z nich se do USA dostali, několik jich však při cestě přes oceán zemřelo. Těmto lidem se začalo říkat \"Marielitos\".",
         "link":"https://en.wikipedia.org/wiki/Mariel,_Cuba"
@@ -27,6 +30,7 @@
         "id":"Matanzas",
         "name":"Matanzas",
         "population":"156952",
+        "what":"Znak",
         "coat_of_arms":"Img not found",
         "description":"Matanzas je přístavní město na Kubě, ležící asi 100 km východně od Havany na pobřeží Floridského průlivu. Má okolo 150 000 obyvatel a je hlavním městem stejnojmenné provincie. Protékají jím řeky Yumurí, San Juan a Canímar, má proto přezdívku město mostů nebo kubánské Benátky.",
         "link":"https://cs.wikipedia.org/wiki/Matanzas"
@@ -35,6 +39,7 @@
         "id":"Cienfuegos",
         "name":"Cienfuegos",
         "population":"164924",
+        "what":"Znak",
         "coat_of_arms":"../geografie/img/Escudo-Cienfuegos.jpg",
         "description":"Cienfuegos (český doslovný překlad je Sto ohňů) je město v centrální části Kuby, leží přibližně 230 km jihovýchodně od Havany na jižním pobřeží ostrova. Je hlavním městem stejnojmenné provincie Cienfuegos, v roce 2004 zde žilo 163 824 obyvatel. Od roku 2005 je historické centrum města zapsáno na seznam Světového dědictví UNESCO. Město bylo založeno v roce 1820 na břehu zátoky, která je s Karibským mořem spojená úzkým průlivem. Tato zátoka (Bahía de Cienfuegos) tvoří přírodní přístav chráněný před útoky pirátů a korzárů. Město založili především francouzští imigranti. Uspořádání ulic je ve městě přísně pravoúhlé. Široké a přímé ulice, promenády a parky dokumentují nové pojetí urbanismu měst Latinské Ameriky na začátku 19. století. Nejstarší stavby jsou postaveny v neoklasicistním stylu.",
         "link":"https://cs.wikipedia.org/wiki/Cienfuegos"
@@ -43,6 +48,7 @@
         "id":"Santa_Clara",
         "name":"Santa Clara",
         "population":"242402",
+        "what":"Znak",
         "coat_of_arms":"../geografie/img/Coat_of_arms_of_Santa_Clara.svg.jpg",
         "description":"Santa Clara je hlavní město kubánské provincie Villa Clara. Má centrální polohu v provincii a na Kubě. Santa Clara je pátým nejlidnatějším kubánským městem s téměř 250 000 obyvateli. Santa Clara byla založena 15. července 1689 175 lidmi. Z nich 138 představovalo dvě velké rodiny, které již v oblasti žily a vlastnily pozemky v sousedství nového města. Dalších 37 osob pocházelo ze sedmi dalších rodin a patřil k nim i kněz a guvernér, všichni původem z pobřežního města San Juan de los Remedios.",
         "link":"https://en.wikipedia.org/wiki/Santa_Clara,_Cuba"
@@ -51,6 +57,7 @@
         "id":"Camaguey",
         "name":"Camagüey",
         "population":"324921",
+        "what":"Znak",
         "coat_of_arms":"../geografie/img/Camaguey_escudo.jpg",
         "description":"Camagüey je město v centrální části Kuby, třetí nejlidnatější na ostrově. Nachází se přibližně 500 km jihovýchodně od Havany. Je hlavním městem stejnojmenné provincie Camagüey. Původní město Santa María del Puerto del Príncipe založené kolem roku 1515 na severním pobřeží bylo po nepřetržitých útocích pirátů roku 1528 přemístěno do vnitrozemí. Jedná se o turisticky atraktivní koloniální město se specifickou architekturou. V červenci roku 2008 bylo město zapsáno do seznamu světového dědictví UNESCO. ",
         "link":"https://cs.wikipedia.org/wiki/Camag%C3%BCey"
@@ -59,6 +66,7 @@
         "id":"Nuevitas",
         "name":"Nuevitas",
         "population":"44882",
+        "what":"Znak",
         "coat_of_arms":"img.jpg",
         "description":"Nuevitas je obec a přístavní město v kubánské provincii Camagüey. Velkou zátoku spatřil Kryštof Kolumbus v roce 1492. Město bylo založeno v roce 1775 a na své současné místo se přestěhovalo v roce 1828. Před národní komunální reformou z roku 1977 se Nuevitas dělila na barrios Primero, Segundo, Tercero, Alvaro Reinoso, Lugareño, Redención, San Miguel a Senado.",
         "link":"https://en.wikipedia.org/wiki/Nuevitas"
@@ -67,6 +75,7 @@
         "id":"Las_Tunas",
         "name":"Las Tunas",
         "population":"171957",
+        "what":"Znak",
         "coat_of_arms":"img.jpg",
         "description":"Las Tunas je město a obec ve středovýchodní části Kuby. Je hlavním městem provincie Las Tunas a v letech 1869-1976 neslo název Victoria de Las Tunas. Město bylo založeno v roce 1796 kolem farnosti San Jerónimo. V roce 1853 získalo na základě královského dekretu titul \"město\". V roce 1976, po zrušení provincie Oriente a jejím rozdělení, se Las Tunas stalo hlavním městem nové stejnojmenné provincie.",
         "link":"https://en.wikipedia.org/wiki/Las_Tunas_(city)"
@@ -75,6 +84,7 @@
         "id":"Manzanillo",
         "name":"Manzanillo",
         "population":"130789",
+        "what":"Znak",
         "coat_of_arms":"img.jpg",
         "description":"Manzanillo je obec a město v provincii Granma na Kubě. Podle počtu obyvatel je 14. největším kubánským městem a nejlidnatějším městem, které není sídlem provincie. Manzanillo bylo založeno v roce 1784. V roce 1792 byla osada vypleněna Francouzi a v následujícím roce byla na její ochranu postavena pevnost. V roce 1833 získalo ayuntamiento (radu) a v roce 1837 za svou \"loajalitu\", kdy nenásledovalo Santiago při přebíraní španělské ústavy, obdrželo od koruny titul Fiel. V roce 1827 byl přístav otevřen obchodu, a to jak vnitrostátnímu, tak zahraničnímu. Během španělsko-americké války se zde odehrály tři bitvy.",
         "link":"https://en.wikipedia.org/wiki/Manzanillo,_Cuba"
@@ -83,6 +93,7 @@
         "id":"Bayamo",
         "name":"Bayamo",
         "population":"222118",
+        "what":"Znak",
         "coat_of_arms":"../geografie/img/Coat_of_arms_of_the_city_of_Bayamo.svg.jpg",
         "description":"Bayamo je hlavní město kubánské provincie Granma a jedno z největších měst regionu Oriente. Bayamo bylo druhé ze sedmi měst založených Diegem Velázquezem de Cuéllar; bylo založeno 5. listopadu 1513. V roce 1540 byl starostou města zvolen Francisco Iznaga, baskický statkář v západní části Kuby během prvních 30 let kolonizace Kuby. Iznaga byl původcem mocného rodu, který se nakonec usadil v Trinidadu, kde se nachází Torre Iznaga (věž Iznaga). Jeho potomci bojovali v letech 1820 až 1900 za nezávislost Kuby a za připojení k USA. Obec Bayamo leží na rovině u řeky Bayamo. Je ovlivňována prudkým větrem Bayamo. Jednou z nejdůležitějších vzdělávacích institucí v provincii je univerzita Granma.",
         "link":"https://en.wikipedia.org/wiki/Bayamo"
@@ -91,6 +102,7 @@
         "id":"Holguin",
         "name":"Holguín",
         "population":"346191",
+        "what":"Znak",
         "coat_of_arms":"img.jpg",
         "description":"Holguín je město ve východní části Kuby, středisko stejnojmenné provincie. Je známé také pod přezdívkou „Kubánské město parků“ (Ciudad cubana de los parques). Holguín se nachází ve vnitrozemí, avšak poblíž místa, kde přistál roku 1492 Kryštof Kolumbus. Místo bylo osídleno už od 16. století. Funguje zde mezinárodní letiště Frank País a končí zde odbočná trať z magistály Havana - Santiago de Cuba. Slavným obyvatelem města byl spisovatel Reinaldo Arenas, který zde prožil mládí. ",
         "link":"https://cs.wikipedia.org/wiki/Holgu%C3%ADn"
@@ -99,6 +111,7 @@
         "id":"Santiago_de_Cuba",
         "name":"Santiago de Cuba",
         "population":"509143",
+        "what":"Znak",
         "coat_of_arms":"img.jpg",
         "description":"Santiago de Cuba je s více než 495 000 obyvateli druhé největší město na Kubě, hlavní a největší město stejnojmenné provincie Santiago de Cuba. Leží asi 760 km jihovýchodně od hlavního města Havana (vzdušnou čarou). Ve městě se nachází mezinárodní letiště Antonio Maceo (SCU). Santiago de Cuba bylo založeno 28. června 1515 Španělem Diegem Velázquezem de Cuéllarem. V této době to byla druhá osada na Kubě po Baracoe. O dva roky později byla zničena požárem, ale za pár let se do ní vrátili obyvatelé. Park Baconao v Santiagu byl roku 1987 vyhlášen za biosférickou rezervaci UNESCO. Na seznamu Světového kulturního dědictví je zapsaná i pevnost San Pedro de la Roca, která měla chránit přístav v Santiagu před útoky pirátů.",
         "link":"https://cs.wikipedia.org/wiki/Santiago_de_Cuba"
@@ -107,8 +120,18 @@
         "id":"Guantanamo",
         "name":"Guantánamo",
         "population":"210407",
+        "what":"Znak",
         "coat_of_arms":"../geografie/img/Escudo_gtmo.jpg",
         "description":"Guantánamo je město na jihovýchodě Kuby. Je to hlavní město stejnojmenné provincie. Má asi 280 000 obyvatel, z nichž mnoho pracuje v produkci cukrové třtiny a kávovníku. Město je asi 910 km od hlavního města Havany a 15 km od americké námořní základny Guantánamo. Město bylo založeno francouzskými osadníky v roce 1796 a je postavené v koloniálním stylu. Svůj věhlas získalo díky americké vojenské základně se zajatci a také písni Guantanamera od José Fernándeze Díaze. V bývalé věznici je nyní muzeum Museo Provincial de Guantánamo, kde jsou uloženy umělecké včetně sochy božstva Fama, která je symbolem Guantánama.",
         "link":"https://cs.wikipedia.org/wiki/Guant%C3%A1namo"
+    },
+    {
+        "id":"Pico_Turquino",
+        "name":"Pico Turquino",
+        "population":" ",
+        "what":"Kopec",
+        "coat_of_arms":"../geografie/img/PicoTurquino.jpg",
+        "description":"Pico Turquino je nejvyšším bodem Kuby. Nachází se na jihovýchodě ostrova v pohoří Sierra Maestra na pomezí provincií Santiago de Cuba a Granma. Dosahuje nadmořské výšky 1974 m n. m. Na vrcholu je umístěnu busta kubánského národního hrdiny Josého Martího. Svahy hory jsou porosté bujnou vegetací. Celá hora a její okolí o celkové rozloze 23 210 ha je jedním z kubánských národních parků.",
+        "link":"https://cs.wikipedia.org/wiki/Pico_Turquino"
     }
 ]
