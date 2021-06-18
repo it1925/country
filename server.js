@@ -34,6 +34,18 @@ app.get('/api/events/:index', (req, res) => {
     .catch(err => res.send('Chyba lávky', err));
 });
 
+app.get('/api/heroes', (req, res) => {
+    readJSON('data/heroes.json')
+    .then(data => res.send(data))
+    .catch(err => res.send('Chyba lávky', err));
+});
+
+app.get('/api/news', (req, res) => {
+    readJSON('data/news.json')
+    .then(data => res.send(data))
+    .catch(err => res.send('Chyba lávky', err));
+});
+
 app.get('/api/town', (req, res) => {
     readJSON('data/town.json')
     .then(data => res.send(data))

@@ -66,7 +66,7 @@ $(function(){
     }
 
         
-     fetch('../data/events.json')
+     fetch('https://obscure-shore-78236.herokuapp.com/api/events')
      .then(response => {
         console.log(response);
         return response.json()
