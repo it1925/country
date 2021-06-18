@@ -1,0 +1,72 @@
+[
+    {
+        "name":"Kryštof Kolumbus",
+        "birth":"mezi 22. srpnem a 31. říjnem 1451",
+        "death":"20. května 1506",
+        "bio":"Kryštof Kolumbus (italsky Cristoforo Colombo, latinsky Christophorus Columbus, španělsky Cristóbal Colón, portugalsky Cristóvão Colombo, asi 31. října 1451?, Janov – 20. května 1506, Valladolid) byl janovský mořeplavec a kolonizátor narozený v Janovské republice v dnešní severozápadní Itálii. Ve službách Katolických králů Španělska uskutečnil čtyři plavby přes Atlantský oceán, které v Evropě probudily zájem o nový kontinent, později nazvaný Amerika. Tyto výpravy a Kolumbovy snahy o založení trvalých sídel na Hispaniole zahájily španělskou kolonizaci, která vyústila v soutěž evropských mocností o kolonizaci Jižní i Severní Ameriky.",
+        "portraits":[
+            "Kryštof.jpg"
+        ],
+        "online":"https://cs.wikipedia.org/wiki/Kry%C5%A1tof_Kolumbus"
+    },
+    {
+        "name":"Diego Velázquez de Cuéllar",
+        "birth":"1465",
+        "death":"1524",
+        "bio":"Diego Velázquez de Cuéllar (1465, Cuéllar, Segovia, Španělsko – 1524 Santiago de Cuba) byl španělský conquistador a první guvernér Kuby a to od roku 1511 až do své smrti v roce 1524. Do Nového světa odplul v roce 1493 s výpravou Kryštofa Kolumba. V letech 1501–1509 spolupracoval s guvernérem Nicolasem de Ovando na kolonizaci ostrova Hispaniola. Diego Colón guvernér tohoto ostrova ho v roce 1511 pověřil vedením expedice, která měla dobýt a osídlit Kubu. Podporoval také další expedice na území dnešního Mexika. V roce 1518 se proto spojil s Hernánem Cortésem, avšak zakrátko mezi nimi začali rozbroje. Za Cortésem poslal expedici pod velením Pánfila de Narváez, toho však Cortés zajal.",
+        "portraits":[
+            "DiegoVelazquezCuellar.jpg"
+        ],
+        "online":"https://cs.wikipedia.org/wiki/Diego_Vel%C3%A1zquez_de_Cu%C3%A9llar"
+    },
+    {
+        "name":"Fulgencio Batista",
+        "birth":"16. ledna 1901",
+        "death":"6. srpna 1973",
+        "bio":"Generál Fulgencio Batista y Zaldívar (16. ledna 1901 – 6. srpna 1973) byl kubánský voják, politik a diktátor. V letech 1933–1940 byl de facto vojenským vůdcem. Od roku 1940 do roku 1944, poté, co zvítězil ve volbách, byl kubánským prezidentem. Po úspěšném puči, kdy tři měsíce před volbami v roce 1952 se Batista za podpory armády opět chopil moci, zrušil volby a vládl Kubě až do převzetí moci ozbrojeným převratem skupinou vedenou Fidelem Castrem na přelomu let 1958 a 1959. Důvodem pro události spojené s politickými nepokoji byla neúspěšná povstání vysokoškolských studentů. Hnutí 26. července vedené Fidelem Castrem bylo největší z několika skupin, které se účastnily Kubánské revoluce.",
+        "portraits":[
+            "Fulgencio_Batista.jpg"
+        ],
+        "online":"https://cs.wikipedia.org/wiki/Fulgencio_Batista"
+    },
+    {
+        "name":"Fidel Castro",
+        "birth":"13. srpna 1926",
+        "death":"25. listopadu 2016",
+        "bio":"Fidel Alejandro Castro Ruz (Speaker Icon.svg audio) (13. srpna 1926 Birán – 25. listopadu 2016 Havana) byl kubánský prezident a premiér, revolucionář a první tajemník Komunistické strany Kuby. Vládl od roku 1959, kdy byl pod jeho vedením svržen generál Fulgencio Batista, až do roku 2006, kdy těžce onemocněl a jeho funkce kromě vedení strany převzal jeho bratr Raúl Castro. V únoru 2008 rezignoval na pozici prezidenta a v dubnu 2011 se vzdal i funkce prvního tajemníka strany. Castrova vláda se zapsala do dějin země výstavbou socialismu, rozvojem zemědělství, vzrůstem vzdělanosti, integrací do RVHP, ale také cenzurou tisku, porušováním lidských práv, zadržováním velkého počtu politických vězňů či neúspěšným vyrovnáním se s chudobou obyvatelstva na přelomu 20. a 21. století.",
+        "portraits":[
+            "Fidel_Castro.jpg"
+        ],
+        "online":"https://cs.wikipedia.org/wiki/Fidel_Castro"
+    },
+    {
+        "name":"Osvaldo Dorticós Torrado",
+        "birth":"17. dubna 1919",
+        "death":"23. června 1983",
+        "bio":"Osvaldo Dorticós Torrado (17. dubna 1919 Cienfuegos – 23. června 1983 Havana) byl kubánský politik a 21. prezident Kuby od 17. června 1959 do 2. prosince 1976, tedy v době kdy byl premiérem Fidel Castro. Později vykonával funkci ministra spravedlnosti, a to až do roku 1983, kdy spáchal sebevraždu.",
+        "portraits":[
+            "OsvaldoDorticosTorrado.jpg"
+        ],
+        "online":"https://cs.wikipedia.org/wiki/Osvaldo_Dortic%C3%B3s_Torrado"
+    },
+    {
+        "name":"Carlos Rafael Rodríguez",
+        "birth":"23. května 1913",
+        "death":"8. prosince 1997",
+        "bio":"Carlos Rafael Rodríguez (23. května 1913 – 8. prosince 1997) byl kubánský komunistický politik, člen vlády Fulgencia Batisty a poté jako místopředseda vlády a ministr i člen vlády za Fidela Castra. Byl členem první kubánské komunistické strany. Ve dvaceti letech byl zvolen starostou rodného města Cienfuegos jako nejmladší starosta v zemi. V letech 1962–1965 řídil Národní institut pro zemědělskou reformu INRA a tedy byl hlavní osobou řídící znárodňování statků na ostrově. Poté ministrem bez portfeje pro hospodářské otázky.",
+        "portraits":[
+            "Carlos_Rafael.jpg"
+        ],
+        "online":"https://cs.wikipedia.org/wiki/Carlos_Rafael_Rodr%C3%ADguez"
+    },
+    {
+        "name":"Raúl Castro",
+        "birth":"3. června 1931",
+        "death":"X",
+        "bio":"Raúl Castro Ruz (* 3. června 1931, Birán, Kuba) je bývalý kubánský politik, který působil jako první tajemník Komunistické strany Kuby. Castro byl vždy členem politbura Komunistické strany Kuby, nejvyššího rozhodovacího orgánu od roku 1975. V letech 1959 až 2008 sloužil jako ministr ozbrojených sil. Jeho ministerské působení z něj učinilo nejdéle sloužícího ministra ozbrojených sil. Kvůli nemoci svého bratra se Castro stal úřadujícím prezidentem Státní rady dočasným převodem moci od 31. července 2006.",
+        "portraits":[
+            "Raul-castro-2015.jpg"
+        ],
+        "online":"https://cs.wikipedia.org/wiki/Ra%C3%BAl_Castro"
+    }
+]

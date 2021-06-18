@@ -10,7 +10,7 @@ async function readJSON(path) {
     return JSON.parse(data.toString());
 }
 
-/* Test
+/*
 readJSON('data/events.json')
     .then(data => console.log(data))
     .catch(err => console.error('Nemám data', err));
@@ -35,8 +35,8 @@ app.get('/api/events/:index', (req, res) => {
 });
 
 app.get('/api/town', (req, res) => {
-    readJSON('./data/cities.json')
-    .then(data => res.send(data[req.params.index]))
+    readJSON('data/town.json')
+    .then(data => res.send(data))
     .catch(err => res.send('Chyba lávky', err));
 });
 
