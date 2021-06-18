@@ -1,7 +1,7 @@
 $(function(){
     let cities = [];
 
-    fetch('../data/town.json')
+    fetch('https://obscure-shore-78236.herokuapp.com/api/town')
         .then(response => {
             console.log(response);
             return response.json()

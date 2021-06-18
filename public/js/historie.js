@@ -66,44 +66,44 @@ $(function(){
     }
 
         
-     fetch('https://obscure-shore-78236.herokuapp.com/api/events')
-     .then(response => {
-        console.log(response);
-        return response.json()
-     })
-     .then(json => {
-        console.log(json);
-        eventsBlock(json);
-     })
-     .catch(function (error) {
-        console.error('Chyba: \n', error);
-     });
-
-    fetch('../data/heroes.json')
+    fetch('https://obscure-shore-78236.herokuapp.com/api/events')
     .then(response => {
-        console.log(response);
-        return response.json()
+       console.log(response);
+       return response.json()
     })
     .then(json => {
-        console.log(json);
-        figuresBlock(json);
+       console.log(json);
+       eventsBlock(json);
     })
     .catch(function (error) {
-    console.error('Chyba: \n', error);
+       console.error('Chyba: \n', error);
     });
 
-    fetch('../data/news.json')
-     .then(response => {
-        console.log(response);
-        return response.json()
-     })
-     .then(json => {
-        console.log(json);
-        newsBlock(json);
-     })
-     .catch(function (error) {
-        console.error('Chyba: \n', error);
-     });
+   fetch('https://obscure-shore-78236.herokuapp.com/api/heroes')
+   .then(response => {
+       console.log(response);
+       return response.json()
+   })
+   .then(json => {
+       console.log(json);
+       figuresBlock(json);
+   })
+   .catch(function (error) {
+   console.error('Chyba: \n', error);
+   });
+
+   fetch('https://obscure-shore-78236.herokuapp.com/api/news')
+    .then(response => {
+       console.log(response);
+       return response.json()
+    })
+    .then(json => {
+       console.log(json);
+       newsBlock(json);
+    })
+    .catch(function (error) {
+       console.error('Chyba: \n', error);
+    });
      
 });
 
